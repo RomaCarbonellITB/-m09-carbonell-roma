@@ -41,4 +41,4 @@ COPY ./xstartup ~/.vnc/
 EXPOSE 22 5901
 
 # Comanda per iniciar el servidor SSH i VNC
-CMD ["/usr/sbin/sshd && tightvncserver :1 -geometry 1280x1024 -depth 24 && tail -f /dev/null"]
+CMD ["/usr/sbin/sshd && tightvncserver :1 -geometry 1920x1080 -depth 24 && tail -f /dev/null"]
