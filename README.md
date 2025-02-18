@@ -24,7 +24,8 @@ After running the container, you can connect to the container’s graphical desk
 
 To connect:
 
-Address: 127.0.0.1:5901 (if you are running the Docker container on your local machine). \n
+Address: 127.0.0.1:5901 (if you are running the Docker container on your local machine).
+
 Password: The password you set when running the container.
 
 ### 4. DockerHub Public URL:
