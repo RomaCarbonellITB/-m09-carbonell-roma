@@ -44,8 +44,6 @@ To connect:
 Address: 127.0.0.1:5901 (if you are running the Docker container on your local machine).
 
 ### 4. DockerHub Public URL:
-[![DockerHub](https://img.shields.io/badge/Docker%20Hub-0db7ed?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/carbu/m09-carbonell-roma/tags
-)
 
 You can also access the image on DockerHub via the following public URL:
 ```bash
