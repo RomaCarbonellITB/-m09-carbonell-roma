@@ -8,7 +8,7 @@ First, clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/RomaCarbonellITB/-m09-carbonell-roma.git
-cd -m09-carbonell-roma
+cd m09-carbonell-roma
 ```
 ### 2. Build and run the Docker container automatically:
 
