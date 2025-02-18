@@ -1,0 +1,16 @@
+#!/bin/bash
+IMAGE_NAME="a1_p2"
+CONTAINER_NAME="a1_p2"
+
+echo "Creant imatge..."
+docker build -t $IMAGE_NAME .
+
+echo "Imatge" $IMAGE_NAME "creada."
+echo "Creant contenidor..."
+docker run -dit --name $CONTAINER_NAME -p 5901:5901 -p 2222:22 $IMAGE_NAME bash
+
+if [ $? -eq 0 ]; then
+    echo "El contenidor s'ha creat i s'està executant correctament!"
+else
+    echo "Hi ha hagut un problema en crear el contenidor."
+fi
