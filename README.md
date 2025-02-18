@@ -15,6 +15,7 @@ cd m09-carbonell-roma
 To build and run the Docker container, use the provided script:
 
 ```bash
+chmod +x build_run.sh
 ./build_run.sh
 ```
 This script will automatically build the image and start the container.
