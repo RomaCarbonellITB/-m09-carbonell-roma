@@ -1,5 +1,6 @@
-#!/bin/bash/
-
+#!/bin/bash
+IMAGE_NAME="a1_p2"
+CONTAINER_NAME="a1_p2"
 
 echo "Imatge" $IMAGE_NAME "creada."
 echo "Creant contenidor..."
